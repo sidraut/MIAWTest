@@ -28,6 +28,7 @@
             }
         </style>
     </head>
+    <body>
     <h2>Contact Support</h2>
     <p>Click the chat icon in the bottom-right corner to start a conversation.</p>
 <script type='text/javascript'>
@@ -49,5 +50,5 @@
 	};
 </script>
 <script type='text/javascript' src='https://partners-cdfxservices--sit.sandbox.my.site.com/ESWCDOnlineInternal1749127303273/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
+</body>
 </html>
