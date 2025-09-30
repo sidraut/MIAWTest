@@ -37,8 +37,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00Ddu000007FkJR',
-				'CD_CFX',
-				'https://partners-cdfxservices--sit.sandbox.my.site.com/ESWCDCFX1748529407423',
+				'MIAW_test',
+				'https://partners-cdfxservices--sit.sandbox.my.site.com/ESWMIAWtest1759224299146',
 				{
 					scrt2URL: 'https://partners-cdfxservices--sit.sandbox.my.salesforce-scrt.com'
 				}
