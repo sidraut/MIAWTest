@@ -37,8 +37,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00Ddu000007FkJR',
-				'MIAW_test',
-				'https://partners-cdfxservices--sit.sandbox.my.site.com/ESWMIAWtest1759224299146',
+				'CD_PFX_Embedded_Service_Deployment_MIAW',
+				'https://partners-cdfxservices--sit.sandbox.my.site.com/ESWCDPFXEmbeddedServic1759300579641',
 				{
 					scrt2URL: 'https://partners-cdfxservices--sit.sandbox.my.salesforce-scrt.com'
 				}
@@ -47,10 +47,10 @@
 			console.error('Error loading Embedded Messaging: ', err);
 		}
         window.addEventListener("onEmbeddedMessagingReady",() => {
-            embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"CDH_Company":"CD","CustomerType":"CFX","ChatSource":"Sales"})
+            embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"CDH_Company":"CD","CustomerType":"CFX","ChatSource":"Support"})
         });
 	};
 </script>
-<script type='text/javascript' src='https://partners-cdfxservices--sit.sandbox.my.site.com/ESWCDCFX1748529407423/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://partners-cdfxservices--sit.sandbox.my.site.com/ESWCDPFXEmbeddedServic1759300579641/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 </apex:page>
