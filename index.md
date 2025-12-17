@@ -31,15 +31,15 @@
     <body>
     <h2>Contact Support</h2>
     <p>Click the chat icon in the bottom-right corner to start a conversation.</p>
-<!--<script type='text/javascript'>
+<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
 				'00Ddu000007FkJR',
-				'CD_Online_Internal',
-				'https://partners-cdfxservices--sit.sandbox.my.site.com/ESWCDOnlineInternal1749127303273',
+				'CD_PFX_Embedded_Service_Deployment_MIAW',
+				'https://partners-cdfxservices--sit.sandbox.my.site.com/ESWCDPFXEmbeddedServic1759300579641',
 				{
 					scrt2URL: 'https://partners-cdfxservices--sit.sandbox.my.salesforce-scrt.com'
 				}
@@ -47,10 +47,14 @@
 		} catch (err) {
 			console.error('Error loading Embedded Messaging: ', err);
 		}
+		window.addEventListener("onEmbeddedMessagingReady",() => {
+            embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"CDH_Company":"Currencies Direct","CustomerType":"PFX","ChatSource":"Support","FirstName":"TorFX CFX Support","ContactId":"003du00000Aliz7AAB","CaseId":"","Origin":"NGOP"}) 
+    }); 
 	};
 </script>
-<script type='text/javascript' src='https://partners-cdfxservices--sit.sandbox.my.site.com/ESWCDOnlineInternal1749127303273/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>-->
-<script type='text/javascript'>
+<script type='text/javascript' src='https://partners-cdfxservices--sit.sandbox.my.site.com/ESWCDPFXEmbeddedServic1759300579641/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+<!--<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
@@ -68,6 +72,6 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://orgfarm-9c41538cc3-dev-ed.develop.my.site.com/ESWCustomAgentforcedepl1750079811755/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://orgfarm-9c41538cc3-dev-ed.develop.my.site.com/ESWCustomAgentforcedepl1750079811755/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>-->
 </body>
 </html>
