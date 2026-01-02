@@ -31,6 +31,8 @@
     <body>
     <h2>Contact Support</h2>
     <p>Click the chat icon in the bottom-right corner to start a conversation.</p>
+	<input type="text" id="myHtmlInput1" />
+    <input type="text" id="myHtmlInput2" />
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
